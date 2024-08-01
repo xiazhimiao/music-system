@@ -1,0 +1,62 @@
+
+body{
+    text-align: center;
+}
+
+.artists-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; /* 调整这里以平分空间 */
+    width: 50%; /* 确保容器占满整个父容器的宽度 */
+    margin: -20px; /* 由于 artist-card 有 margin-bottom，我们需要抵消这个距离 */
+}
+
+.artist-card {
+    width: calc(33.333% - 40px); /* 调整宽度以容纳三个卡片并加上间距 */
+    box-sizing: border-box;
+    margin: 20px; /* 设置卡片的外边距 */
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.artist-photo {
+    width: 100%;
+    padding-top: 100%;
+    position: relative;
+    overflow: hidden;
+    border-radius: 8px 8px 0 0;
+}
+
+.artist-photo img {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.artist-info {
+    padding: 15px;
+    text-align: center;
+}
+
+.artist-info h3 {
+    margin: 0 0 10px 0;
+}
+
+.artist-info p {
+    margin: 0;
+    color: #666;
+}
+
+@media (max-width: 600px) {
+    .artist-card {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+}

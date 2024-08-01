@@ -1,0 +1,14 @@
+com\xiazhimiao\servlet\QueryMusicById.class
+com\xiazhimiao\servlet\QueryMyMusic.class
+com\xiazhimiao\servlet\UpdateMusicById.class
+com\xiazhimiao\servlet\DeleteMusicById.class
+com\xiazhimiao\pojo\Result.class
+com\xiazhimiao\servlet\xiugai.class
+com\xiazhimiao\servlet\AdminLoginServlet.class
+com\xiazhimiao\servlet\QueryMusic.class
+com\xiazhimiao\servlet\AddMusic.class
+com\xiazhimiao\servlet\BuyMusic.class
+com\xiazhimiao\servlet\UserQueryMusic.class
+com\xiazhimiao\servlet\LoginServlet.class
+com\xiazhimiao\tools\DbUtils.class
+com\xiazhimiao\servlet\RegisterServlet.class
